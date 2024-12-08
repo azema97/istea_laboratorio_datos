@@ -6,7 +6,7 @@
 <ins>Comisión</ins>: Martes de 19 a 21 hs<br>
 <ins>Instituo</ins>: [ISTEA](https://www.istea.edu.ar/) - Instituto Superior Técnico Empresarial Argentino<br>
 
-<ins>URL de la API</ins>: http://7172fa2c-591e-42e5-af3e-77e7b76880fe.brazilsouth.azurecontainer.io/score<br>
+<ins>URL de la API</ins>: http://0092feb4-419f-4ffe-b55a-0455af0d5b9b.brazilsouth.azurecontainer.io/score<br>
 <ins>Método POST</ins>: Envíar el siguiente código crudo (raw) de JSON
 ```json
 {
