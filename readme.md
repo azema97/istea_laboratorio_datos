@@ -1,9 +1,9 @@
 # Despliegue y Monitoreo de un Modelo de Machine Learning para Clasificación de Clientes
 
-<u>Integrantes</u>: Tomás Azema Di Pizio, Leonardo Rivadeneira, Priscila Moreno.<br>
-<u>Profesor</u>: Diego Mosquera<br>
-<u>Materia</u>: Laboratorio de Minería de Datos<br>
-<u>Comisión</u>: Martes de 19 a 21 hs<br>
+<ins>Integrantes</ins>: Tomás Azema Di Pizio, Leonardo Rivadeneira, Priscila Moreno.<br>
+<ins>Profesor</ins>: Diego Mosquera<br>
+<ins>Materia</ins>: Laboratorio de Minería de Datos<br>
+<ins>Comisión</ins>: Martes de 19 a 21 hs<br>
 
 ![Portada](img/portada.png)
 
@@ -282,7 +282,7 @@ Se obtuvo como resultado un código 200, indicando que no hubo errores en el tra
 
 En esta etapa del proyecto se implementa el seguimiento y la gestión del modelo utilizando **MLflow**. Para permitir el acceso remoto a la interfaz de usuario de MLflow, se utiliza un túnel seguro configurado con **ngrok**.
 
-#### <u>Bibliotecas Utilizadas</u>
+#### <ins>Bibliotecas Utilizadas</ins>
 
 Se instalan mlflow y pyngrok para el seguimiento de modelos de aprendizaje automático, el registro de modelos y la implementación.
 
@@ -301,7 +301,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 ```
 
-#### <u>Configuración de MLflow</u>
+#### <ins>Configuración de MLflow</ins>
 
 ```python
 # Se establece el modelo en MLflow
@@ -313,7 +313,7 @@ if mlflow.active_run() is not None:
     mlflow.end_run()
 ```
 
-#### <u>Entrenamiento y registro del modelo</u>
+#### <ins>Entrenamiento y registro del modelo</ins>
 
 ```python
 with mlflow.start_run()
@@ -332,7 +332,7 @@ accuracy = accuracy_score(y_test, y_pred)
 mlflow.sklearn.log_model(rf_model, "RandomForestModel")
 ```
 
-#### <u>Configuración y ejecución de ngrok</u>
+#### <ins>Configuración y ejecución de ngrok</ins>
 
 ```python
 # Activando el servidor
