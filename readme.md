@@ -4,6 +4,24 @@
 <ins>Profesor</ins>: Diego Mosquera<br>
 <ins>Materia</ins>: Laboratorio de Minería de Datos<br>
 <ins>Comisión</ins>: Martes de 19 a 21 hs<br>
+<ins>Instituo</ins>: [ISTEA](https://www.istea.edu.ar/) - Instituto Superior Técnico Empresarial Argentino<br>
+
+<ins>URL de la API</ins>: http://7172fa2c-591e-42e5-af3e-77e7b76880fe.brazilsouth.azurecontainer.io/score<br>
+<ins>Método POST</ins>: Envíar el siguiente código crudo (raw) de JSON
+```json
+{
+  "age": 56,
+  "gender": "Male",
+  "annual_income": 65648,
+  "total_spent": 49624,
+  "num_purchases": 17,
+  "avg_purchase_value": 467,
+  "online_activity_score": 52,
+  "loyalty_program": 0,
+  "days_since_last_purchase": 235,
+  "num_site_visits": 61
+}
+```
 
 ![Portada](img/portada.png)
 
