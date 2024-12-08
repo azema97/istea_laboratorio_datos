@@ -1,0 +1,12 @@
+{
+  "age": 56,
+  "gender": "Male",
+  "annual_income": 65648,
+  "total_spent": 49624,
+  "num_purchases": 17,
+  "avg_purchase_value": 467,
+  "online_activity_score": 52,
+  "loyalty_program": 0,
+  "days_since_last_purchase": 235,
+  "num_site_visits": 61
+}
